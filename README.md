@@ -24,9 +24,11 @@ Machine-readable copies:
 
 This repo deploys `dist/` with [`.github/workflows/pages.yml`](.github/workflows/pages.yml). Once, in the GitHub repo:
 
-1. Settings → Pages → Source: **GitHub Actions**
-2. Custom domain: `bio.kondortech.dev`
-3. Enable **Enforce HTTPS** after DNS resolves (required for `.dev`)
+1. Settings → Pages → Build and deployment → Source: **GitHub Actions**  
+   Do **not** choose “Deploy from a branch”. That publishes the Vite source (`index.html` + `/src/main.ts`) and the page will have no CSS.
+2. Open the **Actions** tab, open the **Deploy** workflow, and confirm the latest run is green. If Pages was just switched to Actions, use **Run workflow**.
+3. Custom domain: `bio.kondortech.dev`
+4. Enable **Enforce HTTPS** after DNS resolves (required for `.dev`)
 
 `public/CNAME` already contains `bio.kondortech.dev`.
 
