@@ -51,5 +51,6 @@ function resumePlugin(): Plugin {
 }
 
 export default defineConfig({
+  base: "./",
   plugins: [resumePlugin()],
 });

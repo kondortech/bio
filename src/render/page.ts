@@ -54,9 +54,9 @@ export function renderBody(resume: Resume): string {
   <aside class="rail">
     ${renderHeader(resume)}
     <nav class="formats no-print" aria-label="Machine-readable formats">
-      <a href="/resume.txt">Plain text</a>
+      <a href="./resume.txt">Plain text</a>
       <span aria-hidden="true"> · </span>
-      <a href="/resume.json">JSON Resume</a>
+      <a href="./resume.json">JSON Resume</a>
       <span aria-hidden="true"> · </span>
       <button type="button" class="print">Print / PDF</button>
     </nav>
