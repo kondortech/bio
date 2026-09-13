@@ -1,0 +1,163 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "meta": {
+    "aside": ["skills", "languages", "education", "summary"],
+    "main": ["experience", "awards"],
+    "sections": [
+      "summary",
+      "skills",
+      "experience",
+      "education",
+      "languages",
+      "awards"
+    ]
+  },
+  "basics": {
+    "name": "Kirill Kondratiuk",
+    "label": "Software Engineer",
+    "email": "kirkondratiuk@gmail.com",
+    "summary": "Backend Software Engineer with 4+ years of experience designing, developing, and delivering scalable, fault-tolerant systems. Skilled at guiding complex projects from initial architecture through performance optimization and long-term maintainability in production. Brings a strong Computer Science foundation, ICPC problem-solving experience, and a track record of mentoring peers, influencing technical decisions, and delivering high-quality, efficient solutions built to last.",
+    "location": {
+      "region": "Germany"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "kondortech",
+        "url": "https://github.com/kondortech"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "kondortech",
+        "url": "https://www.linkedin.com/in/kondortech"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Talon.One",
+      "location": "Berlin, Germany",
+      "position": "Software Engineer",
+      "url": "https://www.talon.one",
+      "startDate": "2026-06",
+      "summary": "Incentives engine for enterprise promotions and loyalty."
+    },
+    {
+      "name": "freiheit.com technologies",
+      "location": "Hamburg, Germany",
+      "position": "Software Engineer",
+      "startDate": "2023-06",
+      "endDate": "2026-05",
+      "highlights": [
+        "Played a key role in the end-to-end delivery of a mission-critical, multi-country system — from architecture design to production launch — including on-site deployments in pilot countries and remote rollouts with ongoing support to 30+ others. Contributed to substantial performance improvements, with the platform running 3× faster overall and certain workflows accelerated by up to 10× (15 minutes down to 1.5 minutes), all while maintaining or enhancing data consistency and security.",
+        "Designed and implemented a resilient event-streaming pipeline from the legacy system’s database to the new platform’s event stream, enabling cross-team data access without breaking the domain ownership model. Reduced critical data retrieval times from 30–60 minutes to 30 seconds, significantly speeding up dependent workflows across multiple teams."
+      ]
+    },
+    {
+      "name": "HawkEye (local)",
+      "location": "Bremen, Germany",
+      "position": "Software Engineer",
+      "startDate": "2022-03",
+      "endDate": "2023-05",
+      "summary": "Mobile automated football recording.",
+      "highlights": [
+        "Implemented a fully functional Android app that can simultaneously track and record a football match using object prediction and tracking.",
+        "Latency was around 300ms — enough to track most amateur-league matches."
+      ]
+    },
+    {
+      "name": "Brightwave",
+      "location": "Saint Petersburg, Russia",
+      "position": "Software Engineer",
+      "startDate": "2021-11",
+      "endDate": "2022-03",
+      "highlights": [
+        "Delivered core frontend functionality using a previously created RESTful API.",
+        "Optimized main-page loading so there was no waiting time after start by buffering the most probable next content for a user."
+      ]
+    },
+    {
+      "name": "Yandex",
+      "location": "Saint Petersburg, Russia",
+      "position": "Software Engineering Intern",
+      "startDate": "2021-07",
+      "endDate": "2021-10",
+      "highlights": [
+        "Optimized interaction between two highly loaded services by implementing a new compression mechanism, saving 2.4% CPU and 5% network resources.",
+        "Added integration and unit tests for the new code; coverage increased from 80% to 94%.",
+        "Gradual launch into production with zero downtime."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Constructor University Bremen",
+      "area": "Computer Science",
+      "studyType": "B.S.",
+      "startDate": "2022-09",
+      "endDate": "2023-05"
+    },
+    {
+      "institution": "Saint Petersburg State University",
+      "area": "Computer Science",
+      "studyType": "B.S.",
+      "startDate": "2020-09",
+      "endDate": "2022-05"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Technical Skills",
+      "keywords": [
+        "Go",
+        "TypeScript (React, Vue 3)",
+        "gRPC",
+        "REST",
+        "Docker",
+        "Terraform",
+        "Kubernetes (Helm)",
+        "SQL (PostgreSQL, Oracle)",
+        "NoSQL (MongoDB, Firebase)",
+        "Git",
+        "Python",
+        "C/C++",
+        "JavaScript",
+        "Protocol Buffers",
+        "Microservices",
+        "Distributed systems",
+        "Event streaming",
+        "Linux",
+        "CI/CD",
+        "Dart",
+        "Flutter"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "HUAWEI Challenge",
+      "date": "2021",
+      "awarder": "HUAWEI",
+      "summary": "Implemented a new algorithm for string template matching. Overtook HUAWEI’s algorithm on their own performance metric by a factor of 1.5."
+    },
+    {
+      "title": "Jacobshack",
+      "date": "2022",
+      "summary": "Implemented a trash-detecting and sorting mobile application."
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "C1"
+    },
+    {
+      "language": "German",
+      "fluency": "A1"
+    },
+    {
+      "language": "Russian",
+      "fluency": "Native"
+    }
+  ]
+}
